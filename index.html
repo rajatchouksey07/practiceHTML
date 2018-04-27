@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RJT-basicHTML</title>
+
+		<link rel="stylesheet" type="text/css" href="src/indexCss.css">
+	</head>
+
+	<body>
+		<h1> This heading will not be affected </h1>
+		<p> This paragraph will be red and center-aligned. </p>
+		<p> This paragraph will be red, center-aligned, and in a large font-size. </p>
+
+		<h2 id="C4">Chapter 4</h2>
+
+		<pre>
+			The HTML <pre> Element
+			The HTML <pre> element defines preformatted text.
+
+			The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+		</pre>
+
+		<mark style="border:2px solid Tomato;"> RaJaT </mark>
+		<small> RaJaT </small>
+		<del> - Deleted text </del>
+		<ins> - Inserted text </ins>
+		SUB<sub> - Subscript text </sub> <br><br>
+		SUP<sup> - Superscript text </sup>
+		<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+		<blockquote> element defines a section that is quoted from another source.
+			Browsers usually indent <blockquote> elements.
+		<abbr title="World Health Organization">WHO</abbr>
+		<address>
+				Written by John Doe.<br> 
+				Visit us at:<br>
+				Example.com<br>
+				Box 564, Disneyland<br>
+				USA
+		</address>
+
+		<cite>The Scream</cite> by Edvard Munch.
+		<bdo dir="rtl">This text will be written from right to left</bdo>
+		<bdo dir="auto"> text will be written from right to left</bdo>
+		
+		<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+		<a href="https://www.w3schools.com/" target="_top">If your webpage is locked in a frame,
+			 you can use target="_top" to break out
+			 of the frame:</a>
+		<a href="https://www.w3schools.com/" target="_parent" title="Go to W3Schools HTML section">Visit W3Schools!</a>
+
+		<a href="#C4">Jump to Chapter 4</a>
+
+		<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+		<map name="workmap">
+			<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+			<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+			<area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+		</map>
+
+		<picture>
+				<source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+				<source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+				<img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+		</picture>
+
+		<style>
+		table {
+			width:100%;
+		}
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th, td {
+			padding: 15px;
+			text-align: left;
+		}
+		table#t01 tr:nth-child(even) {
+			background-color: #eee;
+		}
+		table#t01 tr:nth-child(odd) {
+		background-color: #fff;
+		}
+		table#t01 th {
+			background-color: black;
+			color: white;
+		}
+		</style>
+
+
+		<h2>Styling Tables</h2>
+
+		<table>
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th> 
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Jill</td>
+			<td>Smith</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>Eve</td>
+			<td>Jackson</td>
+			<td>94</td>
+		</tr>
+		<tr>
+			<td>John</td>
+			<td>Doe</td>
+			<td>80</td>
+		</tr>
+		</table>
+		<br>
+
+		<table id="t01">
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th> 
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Jill</td>
+			<td>Smith</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>Eve</td>
+			<td>Jackson</td>
+			<td>94</td>
+		</tr>
+		<tr>
+			<td>John</td>
+			<td>Doe</td>
+			<td>80</td>
+		</tr>
+		</table>
+
+	</body>
+</html>
